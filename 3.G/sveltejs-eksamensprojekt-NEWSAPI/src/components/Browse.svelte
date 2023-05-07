@@ -13,6 +13,7 @@
     //laver en variable til artiklerne der får klassen active nr de trykkes på og sætter den til at være falsk
     let activeArticle = false 
     
+    
         $:console.log(language)
         $: console.log(q + 'is the query')
         //hvis variablen q ændre sig kører vi et reaktivt statement

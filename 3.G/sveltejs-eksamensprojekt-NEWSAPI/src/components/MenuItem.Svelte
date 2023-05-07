@@ -13,6 +13,7 @@
 </main>
 
 <style>
+    
     main{
         cursor:pointer;
         transition:.1s ease-in-out all;
