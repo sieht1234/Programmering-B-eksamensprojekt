@@ -36,7 +36,6 @@
                     // API'et har nogle parametre i sit kald, dette kan være q, category, language osv. Alle queries kan findes inde på NEWSAPI's hjemmeside
                     // vi indsætter vores variable q (query = søge ord) ind i URL adressen, så vi fetcher efter det der står i q, det samme gør vi med language, hvor man veælger sprog
                     fetch(`https://newsapi.org/v2/everything?q=${q}&language=${language}&sortBy=popularity&apiKey=94189c26ebd6434da9f01da114b3e217` )
-                   //https://newsapi.org/v2/everything?q=tesla&from=2023-03-12&sortBy=publishedAt&apiKey=94189c26ebd6434da9f01da114b3e217
                    //når vi har spurgt efter om vi må få data fra API'et, får vi et response objekt (et OK fra serven at vi godt må få adgang)
                 .then(res => {
                     //hvis vi får et OK fra serveren skal vi returnere vores svar til JSON
