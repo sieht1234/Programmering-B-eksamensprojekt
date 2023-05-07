@@ -5,11 +5,13 @@
 	import Frontpage from "./components/Frontpage.svelte";
 	import Search from "./components/Search.svelte";
 	import MenuItem from "./components/MenuItem.svelte";
-	
+	//laver en varibale til hvilket menupunkt der er aktivt
 	let menu = ['Frontpage','Browse', 'Search']
+	//laver en varibale der sætter det aktive menupunkt
 	let activePage = menu[1]
+	//laver variablen q, q for query der er søge resultatet
 	let q = 'everything'
-	let apiKey = '94189c26ebd6434da9f01da114b3e217'
+	//laver en varibale til det sprog der vælges
 	let language 
 	//
 	
