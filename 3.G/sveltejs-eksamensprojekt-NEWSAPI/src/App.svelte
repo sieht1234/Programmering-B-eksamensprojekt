@@ -40,7 +40,7 @@
 	</div>
 	<div class="menu">
 		
-	
+		<!-- laver et each direkttiv der bruger subkomponenten MenuItem og binder activePage varibalen til den-->
 		{#each menu as title}
 			 <MenuItem {title} bind:activePage = {activePage}/>
 		{/each}
